@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.header_container{
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 160px;
+}
+.logo_link{
+    color: #f89513;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.menu{
+    width: 340px;
+}
+
+.contact{
+    width: 180px;
+    color: white;
+    text-align: right;
+}
+.menu_list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu_item1{
+    background-image: url(img/main_icon.png);
+}
+.menu_item2{
+    background-image: url(img/feed_icon.png);
+}
+.menu_item3{
+    background-image: url(img/service_icon.png);
+}
+.menu_item{
+    margin-right: 28px;
+}
+.menu_item:last-child{
+    margin-right:0px;
+}
+.menu_link{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight:900;
+    text-decoration: none;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 2px 0;
+    padding-left: 36px;
+}
+.header{
+    background-color: #131415;
+    margin-bottom: 45px;
+}
+
+.telephone{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.shedule{
+    font-size: 14px;
+    color:  #f89513;
+    text-decoration: underline;
+}
+
+.container {
+    width: 880px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs {
+    margin-bottom: 30px;
+}
+
+.breadcrumbs__list {
+    list-style: none;
+    display: flex;
+}
+
+.breadcrumbs__list__item:first-child:after {
+    content: "/";
+    margin-right: 3px;
+}
+
+.breadcrumbs__list__link {
+    font-style: italic;
+    color: #f89513;
+}
+
+.active {
+    color: #221f1f;
+    text-decoration: none;
+}
+
+.block__title {
+    margin-bottom: 50px;
+    font-family: 'Open Sans';
+    font-size: 49px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.services__list {
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services__list__item {
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+.cover {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/cover.png);
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.services__list__item__icon {
+    width: 250px;
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+.sli1 {
+    background-image: url(img/service1.png);
+}
+
+.sli2 {
+    background-image: url(img/service2.png);
+}
+
+.sli3 {
+    background-image: url(img/service3.png);
+}
+
+.sli4 {
+    background-image: url(img/service4.png);
+}
+
+.sli5 {
+    background-image: url(img/service5.png);
+}
+
+.sli6 {
+    background-image: url(img/service6.png);
+}
+
+.services__list__item__body {
+    width: 250px;
+}
+
+.services__list__item__title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.services__list__item__text {
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+.partners__list {
+    margin: auto;
+    width: 765px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.partners__list__item {
+    width: 195px;
+    height: 70px;
+    margin-bottom: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coveri {
+    filter: grayscale(100%);
+}
+
+.pli1 {
+    background-image: url(img/logo-1.png);
+}
+
+.pli2 {
+    background-image: url(img/logo-2.png);
+}
+
+.pli3 {
+    background-image: url(img/logo-3.png);
+}
+
+.pli4 {
+    background-image: url(img/logo-4.png);
+}
+
+.pli5 {
+    background-image: url(img/logo-5.png);
+}
+
+.pli6 {
+    background-image: url(img/logo-6.png);
+}
+
+
+
+
+
+.footer{
+    background-color: #131415;
+    color: white;
+}
+
+.footer_container {
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer__left {
+    width: 230px;
+}
+
+.contacts {
+    width: 180px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text {
+    margin-bottom: 10px
+}
+
+.socials__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials__list__item {
+    width: 20px;
+    height: 20px;
+    background-color: #d0d0d0;
+    border-radius: 50%;
+}
+
+.socials__list__link {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.vk {
+    background-image: url(img/vk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-color: #f89513;
+    border-radius: 50%;
+}
+
+.facebook {
+    background-image: url(img/facebook.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.g {
+    background-image: url(img/g.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.twitter {
+    background-image: url(img/twitter.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.mail {
+    background-image: url(img/mail.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+@media (max-width: 992px) {
+    .services__list {
+        width: 100%;
+    }
+    
+    .services__list__item {
+        width: calc(100%/2 - 20px);
+    }
+
+    .services__list__item__icon {
+        width: 100%;
+        height: 252px; 
+    }
+
+    .services__list__item__body {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {
+    .services__list {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .services__list__item {
+        width: calc(70% - 50px);
+    }
+
+    .services__list__item__icon {
+        width: auto;
+        height: 340px; 
+    }
+
+    .services__list__item__body {
+        width: 100%;
+    }
+}
